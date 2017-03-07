@@ -1,0 +1,194 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,greek);
+* {
+  font-family: "Open Sans", sans-serif; }
+
+body.page-events #logo {
+  display: none; }
+
+body.page-events #site-name a {
+  position: absolute;
+  left: 25px;
+  top: -1px;
+  font-size: 29px;
+  font-weight: 600; }
+  body.page-events #site-name a:hover {
+    text-decoration: none; }
+
+body.page-events #header-inside {
+  width: 20%;
+  position: absolute;
+  left: 200px;
+  top: 30px; }
+
+body.page-events h1.page-title {
+  font-size: 40px; }
+
+body.page-events .view-header {
+  min-height: 488px;
+  position: relative; }
+  body.page-events .view-header div.join {
+    width: 50%;
+    height: 500px;
+    float: left;
+    background: white;
+    position: relative;
+    left: 91px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg); }
+    body.page-events .view-header div.join p {
+      -webkit-transform: skew(-20deg);
+      -moz-transform: skew(-20deg);
+      -o-transform: skew(-20deg);
+      font-size: 24px;
+      padding-top: 236px; }
+  body.page-events .view-header p.headimg {
+    width: 50%;
+    float: right; }
+  body.page-events .view-header div.upcoming {
+    clear: both;
+    display: block;
+    background: black;
+    color: white;
+    width: 20%;
+    padding: 8px;
+    transform: rotate(2deg);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 23px; }
+    body.page-events .view-header div.upcoming p {
+      -webkit-transform: rotate(-2deg);
+      -moz-transform: rotate(-2deg);
+      -o-transform: rotate(-2deg);
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 16px; }
+
+body.page-events #main-content {
+  background: white; }
+
+body.page-events #header {
+  float: left;
+  max-width: 20%; }
+
+body.page-events #site-name {
+  background-color: #2acad9;
+  width: 90px;
+  height: 90px; }
+  body.page-events #site-name a {
+    color: white;
+    padding-top: 24px; }
+
+body.page-events #main-navigation {
+  max-width: 60%;
+  float: right; }
+
+body.page-events .headerimg {
+  width: 745px;
+  height: auto; }
+
+body.page-events .page-title {
+  color: #2acad9;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  top: 228px;
+  z-index: 999;
+  margin-left: 54px; }
+
+body.page-events ul.main-menu {
+  transform: skew(20deg);
+  width: 75%;
+  border-top: #2acad9 50px solid; }
+  body.page-events ul.main-menu li {
+    transform: skew(-20deg);
+    display: inline-block;
+    width: 18%; }
+    body.page-events ul.main-menu li a {
+      color: black;
+      text-transform: uppercase;
+      font-weight: 400; }
+      body.page-events ul.main-menu li a.active {
+        color: black !important; }
+
+body.page-events .view-events div.views-row {
+  width: 30%;
+  float: left;
+  margin-right: 2.5%;
+  margin-bottom: 50px; }
+
+body.page-events .view-events .field-name-field-teaser-image img {
+  max-width: 100%; }
+
+body.page-events html {
+  max-width: 100%; }
+
+body.page-events .field-name-field-event-time {
+  transform: skew(0, 10deg);
+  background-color: white;
+  position: relative;
+  top: -44px; }
+
+body.page-events .time-default {
+  color: #2acad9;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  height: 100px;
+  padding-top: 57px;
+  transform: skew(0, -10deg);
+  position: relative;
+  top: -30px; }
+
+body.page-events .field-name-field-display-month, body.page-events .field-name-field-display-date {
+  position: absolute;
+  background: white;
+  width: 70px;
+  right: 10px;
+  text-align: center;
+  font-weight: 700; }
+
+body.page-events .field-name-field-display-month {
+  padding-bottom: 20px; }
+  body.page-events .field-name-field-display-month div.field-item {
+    color: #2acad9;
+    margin-top: 10px;
+    position: relative;
+    z-index: 999; }
+
+body.page-events .field-name-field-display-date {
+  top: 20px;
+  padding-bottom: 20px;
+  transform: skew(0, 20deg); }
+  body.page-events .field-name-field-display-date div.field-item {
+    transform: skew(0, -20deg);
+    margin-top: 10px; }
+
+body.page-events .field-name-title {
+  margin-top: -96px; }
+  body.page-events .field-name-title h2 {
+    margin-top: 0;
+    position: relative;
+    font-weight: 600; }
+
+body.page-events .field-name-node-link {
+  position: relative;
+  top: 15px; }
+  body.page-events .field-name-node-link a {
+    color: #f2286c;
+    font-weight: 600;
+    border-top: solid 2px #f2286c;
+    padding-top: 8px; }
+    body.page-events .field-name-node-link a:after {
+      content: "";
+      display: block;
+      height: 20px;
+      width: 20px;
+      background: url("/sites/default/files/arrow.png") no-repeat;
+      position: absolute;
+      right: 219px;
+      top: 2px; }
+    body.page-events .field-name-node-link a :hover {
+      text-decoration: none; }
+
+body.page-events .subfooter-area {
+  display: none; }

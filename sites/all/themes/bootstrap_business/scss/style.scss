@@ -1,0 +1,253 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,greek);
+
+*{
+  font-family: "Open Sans", sans-serif;
+}
+
+$blue: rgb(42, 202, 217);
+$pink: rgb(242, 40, 108);
+
+body.page-events{
+  #logo{
+    display:none;
+  }
+  //Logo
+  #site-name a{
+    position: absolute;
+    left: 25px;
+    top: -1px;
+    font-size: 29px;
+    font-weight: 600;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+  //logo wrapper
+  #header-inside{
+    width: 20%;
+    position: absolute;
+    left: 200px;
+    top: 30px;
+  }
+
+  // page title
+  h1.page-title{
+    font-size: 40px;
+  }
+
+  // events teasers
+  .view-header{
+    min-height: 488px;
+    position: relative;
+    div.join{
+      width:50%;
+      height:500px;
+      float: left;
+      background:white;
+      position: relative;
+      left:91px;
+      -webkit-transform: skew(20deg);
+      -moz-transform: skew(20deg);
+      -o-transform: skew(20deg);
+      p {
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        font-size: 24px;
+        padding-top: 236px;
+      }
+    }
+    p.headimg{
+      width:50%;
+      float: right;
+    }
+    div.upcoming{
+      clear: both;
+      display: block;
+      background:black;
+      color:white;
+      width: 20%;
+      padding: 8px;
+      transform: rotate(2deg);
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 23px;
+
+      p{
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+    }
+  }
+
+  #main-content{
+    background:white;
+  }
+
+
+
+  #header{
+    float: left;
+    max-width: 20%;
+  }
+  #site-name{
+    background-color:rgb(42, 202, 217);
+    width: 90px;
+    height: 90px;
+    a{
+      color: white;
+      padding-top:24px;
+    }
+  }
+
+  #main-navigation{
+    max-width: 60%;
+    float: right;
+  }
+
+  .headerimg{
+    width: 745px;
+    height: auto;
+  }
+
+  .page-title{
+    color: $blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    position:relative;
+    top: 228px;
+    z-index: 999;
+    margin-left: 54px;
+  }
+
+  //main menu
+  ul.main-menu{
+    transform: skew(20deg);
+    width: 75%;
+    li{
+      transform: skew(-20deg);
+      display: inline-block;
+      width: 18%;
+      a{
+        color: black;
+        text-transform: uppercase;
+        font-weight: 400;
+        &.active{
+          color: black !important;
+        }
+
+      }
+
+    }
+    border-top: $blue 50px solid;
+  }
+
+  // teasers
+
+  .view-events{
+    //one teaser
+    div.views-row{
+      width: 30%;
+      float: left;
+      margin-right: 2.5%;
+      margin-bottom: 50px;
+    }
+    .field-name-field-teaser-image img{
+      max-width: 100%;
+    }
+  }
+
+  html{
+    max-width: 100%;
+  }
+
+  //text
+
+  .field-name-field-event-time{
+    transform: skew(0,10deg);
+    background-color: white;
+    position: relative;
+    top: -44px;
+  }
+
+  .time-default{
+    color: $blue;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    height: 100px;
+    padding-top: 57px;
+    transform: skew(0,-10deg);
+    position: relative;
+    top: -30px;
+  }
+
+  // date flag
+  .field-name-field-display-month, .field-name-field-display-date{
+    position: absolute;
+    background: white;
+    width: 70px;
+    right: 10px;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .field-name-field-display-month{
+    padding-bottom:20px;
+    div.field-item{
+      color: $blue;
+      margin-top: 10px;
+      position: relative;
+      z-index: 999;
+    }
+  }
+  .field-name-field-display-date{
+    top: 20px;
+    padding-bottom: 20px;
+    transform: skew(0,20deg);
+    div.field-item{
+      transform: skew(0, -20deg);
+      margin-top:10px;
+    }
+  }
+
+  .field-name-title{
+    margin-top: -96px;
+    h2{
+      margin-top:0;
+      position: relative;
+      font-weight: 600;
+    }
+  }
+
+  .field-name-node-link{
+    position: relative;
+    top: 15px;
+    a{
+      color: $pink;
+      font-weight: 600;
+      border-top: solid 2px $pink;
+      padding-top: 8px;
+      &:after{
+        content: "";
+        display: block;
+        height: 20px;
+        width: 20px;
+        background: url("/sites/default/files/arrow.png") no-repeat;
+        position: absolute;
+        right: 219px;
+        top: 2px;
+      }
+      :hover{
+        text-decoration: none;
+      }
+    }
+  }
+  .subfooter-area{
+    display:none;
+  }
+}
