@@ -37,6 +37,9 @@ body.page-events{
   }
 
   // events teasers
+  div.node-events.node-teaser{
+    position:relative;
+  }
   .view-header{
     min-height: 488px;
     position: relative;
@@ -248,6 +251,9 @@ body.page-events{
     }
   }
   .subfooter-area{
+    display:none;
+  }
+  #block-user-login{
     display:none;
   }
 }
